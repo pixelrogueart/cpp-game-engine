@@ -1,0 +1,20 @@
+# ninja log v5
+13	50	7538071721747038	CMakeFiles/Rogue.dir/icon.rc.obj	e9d9cabdc1612a2c
+11	2912	7538071750170374	CMakeFiles/Rogue.dir/cmake_pch.hxx.gch	f969c65585c8db2a
+2914	3811	7538071759328130	CMakeFiles/Rogue.dir/src/components/.AnimationComponent.cpp.obj	84f89f422f36bd5a
+2918	8054	7538071801669592	CMakeFiles/Rogue.dir/src/components/Component.cpp.obj	de886f8a4163b0f
+2930	8379	7538071804970481	CMakeFiles/Rogue.dir/src/graphics/Renderer2D.cpp.obj	5f156b30d3bd6dd1
+2916	9718	7538071818280710	CMakeFiles/Rogue.dir/src/components/CameraComponent.cpp.obj	5a7f99961b161043
+2925	10388	7538071824972599	CMakeFiles/Rogue.dir/src/core/Object.cpp.obj	b135b109fd524922
+2923	10561	7538071826654486	CMakeFiles/Rogue.dir/src/components/SpriteComponent.cpp.obj	7814b71ce666c637
+2921	10568	7538071826664486	CMakeFiles/Rogue.dir/src/components/ScriptComponent.cpp.obj	3c7e831a5a12beb1
+2919	10804	7538071829079695	CMakeFiles/Rogue.dir/src/components/InputComponent.cpp.obj	9fbcae01a7a1bf79
+2928	11025	7538071831345509	CMakeFiles/Rogue.dir/src/core/Object2D.cpp.obj	4e3fa3409089a592
+5	6199	7538072054747594	CMakeFiles/Rogue.dir/src/main.cpp.obj	c89bff77e789f91f
+6200	27844	7538072232075780	Rogue.exe	3b61b092e3ece2ab
+27844	27959	0	CMakeFiles/deploy	32619ee387aefc1b
+27844	27959	0	C:/Users/Usuario/Documents/GitHub/multiplayer-roguelike/build/CMakeFiles/deploy	32619ee387aefc1b
+5	6060	7538074732088581	CMakeFiles/Rogue.dir/src/main.cpp.obj	c89bff77e789f91f
+6060	27473	7538074911757546	Rogue.exe	3b61b092e3ece2ab
+27473	27579	0	CMakeFiles/deploy	32619ee387aefc1b
+27473	27579	0	C:/Users/Usuario/Documents/GitHub/multiplayer-roguelike/build/CMakeFiles/deploy	32619ee387aefc1b

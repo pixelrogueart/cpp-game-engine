@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Clean, Build, and Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/deploy/SDL2_Roguelike_Debug",
+            "args": [],
+            "cwd": "${workspaceFolder}/build",
+            "stopAtEntry": false,
+            "preLaunchTask": "CMake: Build",
+            "env": {
+                "PATH": "/opt/homebrew/bin:/opt/homebrew/lib:${env:PATH}"
+            },
+            "externalConsole": false,  // Use VS Code's integrated terminal
+            "initCommands": [
+                "settings set target.run-args ''"
+            ],
+            "terminal": "integrated",
+            "sourceFileMap": {
+                "/build": "${workspaceFolder}/build"
+            }
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+C:/Users/Usuario/Documents/GitHub/multiplayer-roguelike/build/CMakeFiles/Rogue.dir
+C:/Users/Usuario/Documents/GitHub/multiplayer-roguelike/build/CMakeFiles/deploy.dir
+C:/Users/Usuario/Documents/GitHub/multiplayer-roguelike/build/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/Documents/GitHub/multiplayer-roguelike/build/CMakeFiles/rebuild_cache.dir

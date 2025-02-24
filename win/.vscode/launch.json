@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build and Launch RogueEngine",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/SDL2_Roguelike.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "C:/Users/Usuario/vcpkg/installed/x64-windows/bin;${env:PATH}"
+                }
+            ],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake: Build",
+            "miDebuggerPath": "C:/mingw64/bin/gdb.exe"
+        }
+    ]
+}

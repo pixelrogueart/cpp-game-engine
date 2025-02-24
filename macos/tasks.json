@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: Build",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "rm -rf build && mkdir build && cmake -S . -B build -G \"Unix Makefiles\" -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/opt/homebrew -DCMAKE_LIBRARY_PATH=/opt/homebrew/lib -DCMAKE_INCLUDE_PATH=/opt/homebrew/include && make -C build"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+    ]
+}
